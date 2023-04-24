@@ -67,7 +67,7 @@ int _strlen(const char *s)
 /**
  * _print_int - handel %d %i
  *
- * @list: list
+ * @list: lists
  *
  * Return: c
  */
@@ -77,7 +77,7 @@ int _print_int(va_list list)
 	int c;
 	char *p;
 
-	p = _magic(va_arg(list, int), 10);
+	p = *_ita(va_arg(list, int), 10);
 	c = print((p != NULL) ? p : "NULL");
 
 	return (c);
