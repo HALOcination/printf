@@ -77,7 +77,7 @@ int _print_int(va_list list)
 	int c;
 	char *p;
 
-	p = *_ita(va_arg(list, int), 10);
+	p = _ita(va_arg(list, int), 10);
 	c = print((p != NULL) ? p : "NULL");
 
 	return (c);
