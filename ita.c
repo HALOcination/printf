@@ -1,5 +1,5 @@
 /**
- * *_ita - integer to ASCII
+ * *_ita - integer  to ASCII
  * @n: long int
  * @base: base
  * Return: *char

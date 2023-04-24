@@ -3,7 +3,7 @@
 /**
  * checker - ctrl format commes
  * @s: str
- * @list: args
+ * @list: arg
  * Return: size of (args + str)
  */
 
